@@ -1,0 +1,45 @@
+.card{/*tarjetapj*/
+    font-family: Rick_and_Morty;
+    background-color: rgba(0, 0, 0, 0.623);
+    display:inline-block;
+    /*display:inline-table;*/
+    /* width: fit-content;
+    height: fit-content; */
+    /* size: fit-content; */
+    border-radius: 50px;
+    /*display: inline-block;*/
+    /*padding: 5px;*/
+    margin: 10px;
+    text-align:center;
+    width: auto;
+    height: auto;
+}
+
+.card h2{ /*color letras*/
+    background-color:rgba(66, 192, 64, 0.623);
+    color: rgb(26, 235, 113); 
+    text-decoration: none;
+    font-size: 25px;
+    /* display: inline-block; */
+    /* border-radius: 5px;
+    margin: 2px; */
+}
+
+.card img{ /* imagen de la tarjeta */
+    border-radius: 200px;
+    display:flex;
+}
+
+.card button{ /*botonclose*/
+    font-family: Rick_and_Morty;
+    color: rgb(26, 235, 113);
+    font-size: 20px;
+    background-color: rgba(66, 192, 64, 0.623);
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.Link{ /*link nombre pj*/
+    text-decoration: none;
+}

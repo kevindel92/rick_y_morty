@@ -1,0 +1,18 @@
+.div button{
+    font-family: Rick_and_Morty;
+    color: rgb(26, 235, 113);
+    font-size: 30px;
+    background-color: rgba(66, 192, 64, 0.623);
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+}
+
+.div input{
+    font-family: Rick_and_Morty;
+    color: rgb(26, 235, 113);
+    font-size: 30px;
+    background-color: rgba(66, 192, 64, 0.623);
+    border-radius: 5px;
+    position: relative;
+}

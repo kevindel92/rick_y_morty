@@ -1,0 +1,58 @@
+.div{ /* principal */
+  font-family: Rick_and_Morty;
+  background-color: rgba(0, 0, 0, 0.623);
+  border-radius: 5px;
+  width: 300px ;
+  height: 300px ;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  /* margin: 25px 0 0 25px; */
+  /* margin: auto; */
+  /* margin-left: auto;  */
+  /* margin-right: auto; */
+  /* margin-bottom: auto; */
+  /* margin-top: auto; */
+  /* position:initial; */
+}
+
+
+.warning {
+    border: solid red 2px;
+    border-radius: 0.2em;
+  }
+  
+  .danger {
+    font-size: 10px;
+    color: red;
+    margin-left: 10em;
+  }
+  
+  .div button{
+    font-family: Rick_and_Morty;
+    color: rgb(26, 235, 113);
+    font-size: 30px;
+    background-color: rgba(66, 192, 64, 0.623);
+    cursor: pointer;
+    border-radius: 5px;
+    /* position: top; */
+    }
+
+    .username{
+      color: rgb(26, 235, 113);
+      background-color: rgba(66, 192, 64, 0.623);
+    }
+
+    .password{
+      color: rgb(26, 235, 113);
+      background-color: rgba(66, 192, 64, 0.623);
+    }
+
+    .div label{
+      color: rgb(26, 235, 113);
+      font-size: 30px;
+    }

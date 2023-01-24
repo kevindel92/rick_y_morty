@@ -1,0 +1,54 @@
+.card{
+    background-color: rgba(0, 0, 0, 0.623);
+    font-family: Rick_and_Morty;
+    /* width: fit-content;
+    height: fit-content; */
+    border-radius: 20px;
+    /* display: contents; */
+    /* display: inline-block; */
+    /* padding: 5px; */
+    margin: 10px;
+}
+
+.card h1{
+    color: rgb(26, 235, 113);
+    text-align: center;
+    font-size: 35px;
+}
+
+.card h2{
+    color: rgb(26, 235, 113);
+    text-align: center;
+    font-size: 30px;
+}
+
+.card buttonToHome{
+    font-family: Rick_and_Morty;
+    background-color: rgba(66, 192, 64, 0.623);
+    color: rgb(26, 235, 113);
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    position:fixed;
+    top: 110px;
+    left:250px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.Link{
+    text-decoration: none;
+}
+
+.card img{
+    display: block;
+    /* margin-bottom: 0%;
+    margin-top: 10%;
+    margin-left: 0%;
+    margin-right: 100%; */
+    border-radius: 50px;
+    position: absolute;
+    top: 150px;
+    left:150px;
+    margin: auto;
+}

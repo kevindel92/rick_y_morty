@@ -1,0 +1,9 @@
+/* @font-face {
+   font-family: Rick_and_Morty;
+   src: url("../assets/get-schwifty.ttf");
+} */
+
+.App {
+   position: relative;
+   text-align:center;
+}
