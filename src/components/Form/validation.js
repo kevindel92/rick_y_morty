@@ -1,7 +1,11 @@
 export default function validation (inputs){
+
     const regexPassword = /^(?=\w*\d)\S{6,10}$/;
+
     const regexEmail = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
+
     const regexNumber = /^(?:[0-9]+[a-z]|[a-z]+[0-9])[a-z0-9]*$/i;
+    
     const  errors = {};
 
   if (!regexEmail.test(inputs.username)){

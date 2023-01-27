@@ -12,12 +12,12 @@ body {
   background-image: url("../assets/Rick-and-Morty-space-1341343-wallhere.com.jpg");
   background-size: cover;
   background-repeat: repeat;
+  background-attachment: fixed;
   /* background-position: center; */
   font-size:medium;
   /* border-image: 2em; */
   /* text-align: center; */
   /* text-decoration: none; */
-  
 }
 
 code {

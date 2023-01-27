@@ -1,0 +1,15 @@
+.div select{
+    font-family: Rick_and_Morty;
+    color: rgb(26, 235, 113);
+    background-color: rgba(66, 192, 64, 0.623);
+    border: 1px solid #000000;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin:4px;
+}
+
+.div option{
+    font-family: Rick_and_Morty;
+    color: rgb(0, 0, 0);
+}

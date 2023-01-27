@@ -16,7 +16,7 @@ export default function SearchBar(props) {
       const { value } = evento.target;
       console.log(value)
    setCharacter(value);
-   } 
+   }
 
    return (
       <div className={styles.div}>

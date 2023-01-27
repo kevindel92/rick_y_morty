@@ -5,12 +5,13 @@ import Cards from '../src/components/Cards/Cards.jsx'
 // import SearchBar from '../src/components/SearchBar/SearchBar.jsx'
 import NavBar from './components/Nav/Nav.jsx';
 // import characters, {Rick} from './data.js'
-import { Routes, Route, useNavigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import About from "./components/About/About.jsx"
 import Detail from "./components/Detail/Detail.jsx"
 import Error from './components/Error/Error.jsx';
 import Form from "./components/Form/Form.jsx"
-import { useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
+import Favorites from "./components/Favorites/favorites";
 
 function App () {
   const location = useLocation();
@@ -63,10 +64,9 @@ setCharacters(characters.filter(char => char.id !== id))
       {location.pathname !== "/" && <NavBar onSearch={onSearch}/>}
       <Routes>
         <Route exact path='/' element={<Form login={login}/>}/>
-        <Route path='/home' element={<Cards characters={characters}
-          onClose={onClose}
-        />}/>
+        <Route path='/home' element={<Cards characters={characters} onClose={onClose}/>}/>
         <Route path='/about' element={<About/>}/>
+        <Route path='/favorites' element={<Favorites/>}/>
         <Route path='/detail/:detailId' element={<Detail/>}/>
         <Route path="*" element={<Error/>}/>
       </Routes>
